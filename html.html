@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <form id="search-form">
+                <input type="search" id="search-input" placeholder="Search...">
+                <button id="search-button">Search</button>
+            </form>
+            <button id="login-toggle-button">Login</button>
+        </nav>
+        
+        <!-- Login Section (Initially Hidden) -->
+        <section id="login-section" style="display: none;">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button id="login-button">Login</button>
+            </form>
+        </section>
+    </header>
+
+    <!-- Content Section -->
+    <section id="content-section">
+        <h1>Welcome to our website!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Our Website</p>
+        <p>Contact us: <a href="mailto:example@example.com">example@example.com</a></p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
